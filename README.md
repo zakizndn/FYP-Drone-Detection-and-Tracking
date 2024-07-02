@@ -1,8 +1,8 @@
+
+https://github.com/zakizndn/FYP-Drone-Detection-and-Tracking/assets/117178074/561d4a88-4ffe-48f9-9c89-7db06b96e0a4
 # Drone Detection and Tracking in Distorted Surveillance Video
 
 APM6168 - Final Year Project
-
-Abstract - 
 
 The widespread integration of drones across various industries has led to a surge in production efficiency and innovation. However, this increase in drone usage also brings forth significant threats to security and privacy concerns. In response, this project aimed to develop a robust drone detection system capable of effectively handling distorted surveillance video using YOLOv8 and implementing an efficient tracking system for predicting future drone positions in surveillance footage using LSTM/Bi-LSTM. This project utilised surveillance videos from the Drone Detection dataset, previously employed in the ICIP 2023 Challenge, comprising 650 videos featuring drones, birds, airplanes, and helicopters in both infrared (IR) and visible footage. Leveraging this dataset enabled a comprehensive evaluation of the detection and tracking system across various scenarios. Two datasets, visible and IR, were generated for object detection, employing YOLOv8 in different variants tailored to performance needs. For object tracking, centre coordinates were extracted from selected videos to create CSV files for training and testing. LSTM and Bi-LSTM layers with diverse configurations were utilised for tracking.
 
@@ -12,6 +12,13 @@ For object detection, analysis of the visible dataset demonstrated that YOLOv8s 
 
 
 ## Object Detection
+
+#### 
+Uploading Object Detection Visible (helicopter + airplane).mp4… 
+
+https://github.com/zakizndn/FYP-Drone-Detection-and-Tracking/assets/117178074/37f9b115-0ae5-4840-954e-c80277838ca8
+
+
 
 ## Object Tracking
 

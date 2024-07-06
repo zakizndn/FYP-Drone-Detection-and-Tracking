@@ -1,7 +1,7 @@
 
 # Drone Detection and Tracking in Distorted Surveillance Video
 
-APM6168 - Final Year Project
+APM6168 - Final Year Project 
  
 The widespread integration of drones across various industries has led to a surge in production efficiency and innovation. However, this increase in drone usage also brings forth significant threats to security and privacy concerns. In response, this project aimed to develop a robust drone detection system capable of effectively handling distorted surveillance video using YOLOv8 and implementing an efficient tracking system for predicting future drone positions in surveillance footage using LSTM/Bi-LSTM. This project utilised surveillance videos from the Drone Detection dataset, previously employed in the ICIP 2023 Challenge, comprising 650 videos featuring drones, birds, airplanes, and helicopters in both infrared (IR) and visible footage. Leveraging this dataset enabled a comprehensive evaluation of the detection and tracking system across various scenarios. Two datasets, visible and IR, were generated for object detection, employing YOLOv8 in different variants tailored to performance needs. For object tracking, centre coordinates were extracted from selected videos to create CSV files for training and testing. LSTM and Bi-LSTM layers with diverse configurations were utilised for tracking.
 

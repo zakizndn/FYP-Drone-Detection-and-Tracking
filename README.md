@@ -10,9 +10,18 @@ For object detection, analysis of the visible dataset demonstrated that YOLOv8s 
 ## Presentation Slide 
 [Canva - Object Detection and Tracking in Distorted Surveillance Video](https://www.canva.com/design/DAGHnztRQ3Y/ULN1ImqI7U4MAwR8lXzcXw/edit?utm_content=DAGHnztRQ3Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-## Result
+## Object Detection 
 
-#### Object Detection
+#### Quantitative Results 
+
+Model | Precision | Recall | F1-score | Accuracy | mAP | IoU 
+--- | --- | --- | --- |--- |--- |--- 
+YOLOv8n | 0.904 | 0.849 | 0.876| 0.923 | 0.890 | 0.906 
+YOLOv8s | **0.919** | **0.894** | **0.906**| **0.928** | **0.923** | **0.909**
+YOLOv8m | 0.911 | 0.851 | 0.880| 0.921 | 0.902 | 0.908 
+YOLOv8l | 0.899 | 0.861 | 0.880| 0.926 | 0.899 | **0.909**
+
+#### Qualitative Results
 
 https://github.com/zakizndn/FYP-Drone-Detection-and-Tracking/assets/117178074/37f9b115-0ae5-4840-954e-c80277838ca8
 
@@ -22,7 +31,7 @@ https://github.com/zakizndn/FYP-Drone-Detection-and-Tracking/assets/117178074/18
 
 https://github.com/zakizndn/FYP-Drone-Detection-and-Tracking/assets/117178074/0870cfd1-8a88-47dd-9492-81e8f9789be6
 
-#### Object Tracking
+## Object Tracking
 
 https://github.com/zakizndn/FYP-Drone-Detection-and-Tracking/assets/117178074/6f0a0401-f38e-4ebe-a376-1c91422b927f
 
